@@ -1,0 +1,20 @@
+{
+  "name": "multi-upload",
+  "version": "1.0.0",
+  "description": "大文件切片断点续传",
+  "main": "lib/multi-upload.min.js",
+  "scripts": {
+    "watch": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "author": "heylight",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "spark-md5": "^3.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup-plugin-uglify": "^5.0.2"
+  }
+}
